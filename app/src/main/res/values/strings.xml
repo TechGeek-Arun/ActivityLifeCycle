@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ActivityLifeCycle</string>
+    <string name="activity">FIRST ACTIVITY</string>
+    <string name="First">Situations</string>
+<string name="Second">
+When open the app</string>
+    <string name="Third">
+onCreate() —> onStart() —>  onResume()</string>
+        <string name="Fourth">
+When back button pressed and exit the app</string>
+            <string name="Fifth">
+onPaused() — > onStop() —> onDestory()</string>
+                <string name="Sixth">
+When home button pressed</string>
+                    <string name="Seventh">
+onPaused() —> onStop()</string>
+                        <string name="Eight">
+After pressed home button when again open app from recent task list or clicked on icon</string>
+                            <string name="Nine">
+onRestart() —> onStart() —> onResume()
+
+    </string>
+    <string name="ten">Navigate from First to second Activity</string>
+    <string name="eleven">First Activity onPause() —>
+second Activity onCreate(), onStart(), and onResume() —>
+First Activity onStop()</string>
+    <string name="twelve"></string>
+    <string name="thirteen"></string>
+    <string name="activity_two">SECOND ACTIVITY</string>
+</resources>
